@@ -1,0 +1,138 @@
+/* CSS Document */
+
+/* ******* PRODUCT BOX ******* */
+
+.dealshare_productbox {
+	padding: 10px;
+	background-color: #FFFFFF; 
+	-webkit-border-radius: 6px; 
+	-moz-border-radius: 6px; 
+	-o-border-radius: 6px; 
+	-ms-border-radius: 6px; 
+	-khtml-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #D6D4CE;
+	position: relative;
+}
+.dealshare_productbox.bottom_margin {margin-bottom: 12px}
+.dealshare_productbox > .left {width: 100px; float: left;}
+/*.dealshare_productbox > .left {width: 100px; float: left;padding: 0 0 0 0; display: none; }*/
+
+/*.dealshare_productbox > .right {}*/
+.dealshare_productbox > .right {width: 510px; float: right; padding-left: 10px; border-left: 1px #E1E1E1 solid;}
+.dealshare_productbox > .right > h3 {min-height: 46px;font-size: 18px;text-decoration: underline; font-weight: bold;margin-bottom: 8px;margin-top: 0;background-color: transparent; line-height: 1.4em; color:#09F;}
+.dealshare_productbox > .right > h3 > a.click_title {height: 40px;font-size: 1em;font-weight: bold;margin-bottom: 8px;margin-top: 0;background-color: transparent; line-height: 1.4em; color:#09F;}
+.dealshare_productbox > .right > h3 > a.click_title:visited {color:#09F;}
+.dealshare_productbox > .right > h3 > a.click_title:hover {text-decoration: none;}
+
+.dealshare_productbox > .right > h3 > a.click_title_deal {height: 40px;font-size: 1em;font-weight: bold;margin-bottom: 8px;margin-top: 0;background-color: transparent; line-height: 1.4em; color:#09F;}
+.dealshare_productbox > .right > h3 > a.click_title_deal:visited {color:#09F;}
+.dealshare_productbox > .right > h3 > a.click_title_deal:hover {text-decoration: none;}
+
+.dealshare_productbox > .right > .box_instructions {margin-top: 12px;display: none;}
+
+.dealshare_productbox > .right > .info_date {font-size: 12px; color: #666; margin-bottom: 6px;}
+.dealshare_productbox > .right > .info_price {font-size: 12px; color: #666; margin-bottom: 6px;}
+.dealshare_productbox > .right > .info_weight {font-size: 12px; color: #666; margin-bottom: 6px;}
+.dealshare_productbox > .right > .info_quantity {font-size: 12px; color: #666; margin-bottom: 6px;}
+/* http://www.cssbuttongenerator.com/ */
+.dealshare_productbox .box_button, .dealshare_productbox .box_button_deal {
+	/*width: 408px;*/
+	display:block;
+	/*padding:8px 20px;*/
+	padding-top: 8px;
+	padding-bottom: 8px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811) );
+	background:-moz-linear-gradient( center top, #77d42a 5%, #5cb811 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811');
+	background-color:#77d42a;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #268a16;
+	
+	color:#ffffff;
+	font-family:Arial;
+	font-size: 1.1em;
+	font-weight:bold;
+	
+	text-decoration:none;
+	text-align: center;
+}.dealshare_productbox .box_button:hover, .dealshare_productbox .box_button_deal:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a) );
+	background:-moz-linear-gradient( center top, #5cb811 5%, #77d42a 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a');
+	background-color:#5cb811;
+}.dealshare_productbox .box_button:active, .dealshare_productbox .box_button_deal:active {
+	position:relative;
+	top:1px;
+}
+
+.dealshare_productbox > .right > h3 > a.click_title_expired {color: #666;}
+.dealshare_productbox > .right > .notification-clicked-share {display: none;margin-top: 12px;font-size: 11px;	}
+.dealshare_productbox > .right > .notification-clicked-share > .box {margin-top: 10px;padding: 10px;background-color: #EAEAEA;}
+.dealshare_productbox > .right > .notification-clicked-share > .box h3 {
+	height: 40px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 8px;
+	margin-top: 0;
+	background-color: transparent;
+	line-height: 1.4em;
+	color:#333;
+}
+
+/* http://www.bestcssbuttongenerator.com/ */	
+.dealshare_productbox .box_share {
+        
+		display:block;
+		margin-bottom: 12px;
+        -moz-box-shadow:inset 0px 1px 0px 0px #ffe0b5;
+        -webkit-box-shadow:inset 0px 1px 0px 0px #ffe0b5;
+        box-shadow:inset 0px 1px 0px 0px #ffe0b5;
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fbb450), color-stop(1, #f89306));
+        background:-moz-linear-gradient(top, #fbb450 5%, #f89306 100%);
+        background:-webkit-linear-gradient(top, #fbb450 5%, #f89306 100%);
+        background:-o-linear-gradient(top, #fbb450 5%, #f89306 100%);
+        background:-ms-linear-gradient(top, #fbb450 5%, #f89306 100%);
+        background:linear-gradient(to bottom, #fbb450 5%, #f89306 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbb450', endColorstr='#f89306',GradientType=0);
+        
+        background-color:#fbb450;
+        
+        -moz-border-radius:7px;
+        -webkit-border-radius:7px;
+        border-radius:7px;
+        
+        border:1px solid #c97e1c;
+        
+        display:inline-block;
+        color:#ffffff;
+        font-family:Trebuchet MS;
+        font-size:17px;
+        font-weight:bold;
+        padding:6px 24px;
+        text-decoration:none;
+        text-align: center;
+        text-shadow:0px 1px 0px #8f7f24;
+        
+    }
+	
+.dealshare_productbox .box_share h3 {color: #fff;}
+
+.dealshare_productbox .dealshare_discountbox_terms_link {display: block;margin-top: 6px;font-size: 11px; text-decoration: underline;font-weight: bold; color:#09F;cursor: hand; cursor: pointer; }
+.dealshare_productbox .dealshare_discountbox_terms_paragraph {display: none;font-size: 11px;}
+
+/* **** MOBILE **** */
+
+@media only screen and (max-device-width: 680px) {
+
+.dealshare_productbox > .left {width: 100px; float: left;padding: 0 0 0 0; display: none; }
+.dealshare_productbox > .right {width: 100%; float: left;padding-left: 0; border-left: 0px #E1E1E1 solid;}
+	
+}
+
